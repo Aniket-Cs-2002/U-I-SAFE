@@ -19,16 +19,16 @@ const App = () => (
       <Toaster />
       <Sonner />
       <HashRouter>
-  <Routes>
-    <Route path="/" element={<Index />} />
-    <Route path="/dashboard" element={<Dashboard />} />
-    <Route path="/hospital" element={<Hospital />} />
-    <Route path="/auth" element={<Auth />} />
-    <Route path="/services" element={<Services />} />
-    <Route path="/profile" element={<Profile />} />
-    <Route path="*" element={<NotFound />} />
-  </Routes>
-</HashRouter>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/hospital" element={<Hospital />} />
+          <Route path="/auth" element={<Auth />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </HashRouter>
     </TooltipProvider>
   </QueryClientProvider>
 );
